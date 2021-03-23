@@ -15,3 +15,5 @@ t.left(90)
 t.forward(n)
 t.left(90)
 t.forward(n)
+
+#한 변의 길이가 n이고 정사각형에 내접하는 지름이 n인 원
