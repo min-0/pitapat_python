@@ -28,3 +28,5 @@ t.right(60)
 t.forward(100)
 t.right(120)
 t.forward(100)
+
+#별 모양 그림
