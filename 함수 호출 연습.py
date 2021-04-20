@@ -52,3 +52,12 @@
 # x = eval(input())
 
 # print(f(x))
+
+# 실습문제 3.16
+def swqpFL(lst):
+    lst[0], lst[-1] = lst[-1],  lst[0]
+    print(lst)
+
+
+ingredients = input("리스트에 들어갈 원소 입력>>").split()
+print(swqpFL(ingredients))
