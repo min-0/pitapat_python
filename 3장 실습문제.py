@@ -37,7 +37,7 @@
 # print('Done.')
 
 # 3.5
-wordList = [(input('Enter word list: '))]
+wordList = input('Ender word list:').split()
 for word in wordList:
     if len(word) == 4:
         print(word)
