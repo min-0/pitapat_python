@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 
-photo = PhotoImage(file='peace.gif')  # 가져올 이미지 파일
+photo = PhotoImage(file='rock.png')  # 가져올 이미지 파일
 
 peace = Label(master=root,
               image=photo,
