@@ -14,10 +14,10 @@ weekday, numDays = monthrange(2021, 5)
 week = 1
 
 for i in range(1, numDays+1):
-    lb2 = Label(w, text=str(i-1))
+    lb2 = Label(w, text=str(i))
     lb2.grid(row=week, column=weekday)
 
-    weekday += 1
+    weekday += 1.
     if weekday > 6:
         week += 1
         weekday = 0
