@@ -15,7 +15,6 @@ class Emp:
     def __str__(self):
         return '이름: ' + self.name + ' 보너스: ' + str(self.bonus)
 
-
 a = Emp('peter', 50)
 b = Emp('Austin')
 
