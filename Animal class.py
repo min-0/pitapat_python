@@ -13,7 +13,6 @@ class Animal:
         '동물이 말하는 문장을 출력'
         print('I am a{} and I {}.'.format(self.spec, self.lang))
 
-
 snoopy = Animal()
 snoopy.setSpecies('dog')
 snoopy.setLanguage('bark')
