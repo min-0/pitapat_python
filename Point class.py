@@ -26,7 +26,6 @@ class Point:
         '표준 문자열 표현(x, y)를 반환'
         return 'Point({},{})'.format(self.x, self.y)
 
-
 a = Point(3, 4)
 print(a)
 print(a.setx())
