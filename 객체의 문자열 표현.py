@@ -5,6 +5,5 @@ class Representation:
     def __str__(self):  # 문자열 생성자
         return 'Pretty string representation'
 
-
 rep = Representation()
 print(rep)
