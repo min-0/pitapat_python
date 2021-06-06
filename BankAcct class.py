@@ -16,7 +16,6 @@ class BankAcct:
     def balance(self):
         return self.money
 
-
 a = BankAcct(1000)
 print(a.balance())
 
