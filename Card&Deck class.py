@@ -52,7 +52,6 @@ class Deck:
         '카드 덱의 최상위로부터 카드를 나누어 줌(배출 및 반환)'
         return self.deck.pop()
 
-
 deck = Deck()
 deck.shuffle()
 card = deck.dealCard()
