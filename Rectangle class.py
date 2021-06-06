@@ -9,7 +9,6 @@ class Rectangle:
     def getPerimeter(self):
         return self.height * 2 + self.width * 2
 
-
 rect = Rectangle()
 print(rect.getArea())
 print(rect.getPerimeter())
