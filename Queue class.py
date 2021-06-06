@@ -60,7 +60,6 @@ class Queue:
         '큐의 표준 문자열 표현 반환'
         return 'Queue({})'.format(self.q)
 
-
 fruit = Queue()
 fruit.enqueue('apple')
 fruit.enqueue('banana')
